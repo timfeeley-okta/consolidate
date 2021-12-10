@@ -7,4 +7,4 @@ To run locally,
 2. `yarn install` to grab packages.
 3. `yarn dev` to spin up a dev instance.
 
-That should be it!
+That should be it.
