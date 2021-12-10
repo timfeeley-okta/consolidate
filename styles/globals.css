@@ -1,16 +1,67 @@
-html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-feature-settings: 'case', 'cpsp', 'dlig' 0, 'frac' 0, 'dnom' 0, 'numr' 0,
+    'salt' 0, 'subs' 0, 'sups' 0, 'tnum', 'zero' 0, 'ss01' 0, 'ss02', 'ss03',
+    'ss04' 0, 'cv01' 0, 'cv02' 0, 'cv03' 0, 'cv04' 0, 'cv05' 0, 'cv06' 0,
+    'cv07' 0, 'cv08' 0, 'cv09' 0, 'cv10', 'cv11', 'calt', 'ccmp', 'kern';
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
+.json-key {
+  color: brown;
 }
-
-* {
-  box-sizing: border-box;
+.json-string {
+  color: olive;
+}
+.json-number {
+  color: navy;
+}
+.json-boolean {
+  color: teal;
+}
+.json-null {
+  color: dimgray;
+}
+.json-mark {
+  color: black;
+}
+a.json-link {
+  color: purple;
+  transition: all 400ms;
+}
+a.json-link:visited {
+  color: slategray;
+}
+a.json-link:hover {
+  color: blueviolet;
+}
+a.json-link:active {
+  color: slategray;
+}
+.dark-mode .json-key {
+  color: indianred;
+}
+.dark-mode .json-string {
+  color: darkkhaki;
+}
+.dark-mode .json-number {
+  color: deepskyblue;
+}
+.dark-mode .json-boolean {
+  color: mediumseagreen;
+}
+.dark-mode .json-null {
+  color: darkorange;
+}
+.dark-mode .json-mark {
+  color: silver;
+}
+.dark-mode a.json-link {
+  color: mediumorchid;
+}
+.dark-mode a.json-link:visited {
+  color: slategray;
+}
+.dark-mode a.json-link:hover {
+  color: violet;
+}
+.dark-mode a.json-link:active {
+  color: silver;
 }
